@@ -1,8 +1,8 @@
 # FakeRebootAlert
 
-This is a basic Windows Application designed to display a popup prompting users to reboot their machine. It can be useful in scenarios where a system restart is necessary for changes to take effect, such as when modifications have been made to registry keys (e.g., Protected Process Light (PPL) settings).
+This is a basic Windows Forms App designed to display a popup asking users to reboot their machine. It can be useful in scenarios where a system restart is necessary for changes to take effect, such as when modifications have been made to registry keys (e.g., Protected Process Light (PPL) settings).
 
-To make it look legitimate, the popup message includes the system's hostname and the icon of a program installed in the machine. The icon is included as a base64 blob and can be updated for the icon of any other program.
+To make it look legitimate, the popup message includes the system's hostname and the icon of a program installed in the machine. The icon is included as a base64 blob and can be updated for the icon of any other program using the variable "*base64Icon*" in *Program.cs* file.
 
 ![img1](https://raw.githubusercontent.com/ricardojoserf/ricardojoserf.github.io/refs/heads/master/images/fakerebootalert/Screenshot_1.png)
 
@@ -13,7 +13,7 @@ To make it look legitimate, the popup message includes the system's hostname and
 
 It is increasingly common to find PPL protection enabled by default in Windows systems. Even with administrator privileges, modifying the corresponding registry key requires a system restart for the changes to take effect. However, restarting the computer can be risky in certain scenarios.
 
-In such cases, waiting for users to reboot naturally may seem like a safer option, but it is not always feasible to wait for weeks or months. To address this, we can prompt users to reboot prematurely by using a method that appears urgent or necessary, encouraging them to restart the system on their own.
+In such cases, waiting for users to reboot naturally may seem like a safer option, but it is not always feasible to wait for weeks or months. To address this, we can prompt users to reboot prematurely, encouraging them to restart the system on their own.
 
 -----------------------------------------------
 
