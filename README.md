@@ -33,4 +33,4 @@ Or use the System-wide Startup folder, which would make the message prompt for a
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
-Similar techniques such as using registry keys are documented in the MITRE ATT&CK framework under [technique T1547.001](https://attack.mitre.org/techniques/T1547/001/).
+Similar mechanisms are documented in the MITRE ATT&CK framework under [technique T1547](https://attack.mitre.org/techniques/T1547/).
