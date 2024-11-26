@@ -33,4 +33,4 @@ Or use the System-wide Startup folder, which would make the message prompt for a
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
-Another ASEP example is registry keys such as "*HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run*" (for a specific user) or "*HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run*" (for all users).
+Similar techniques such as using registry keys are documented in the MITRE ATT&CK framework under [technique T1547.001](https://attack.mitre.org/techniques/T1547/001/).
